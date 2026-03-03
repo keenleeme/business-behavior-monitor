@@ -1,0 +1,6 @@
+spring:
+  application:
+    name:  business-behavior-monitor-admin
+
+  profiles:
+    active: dev
