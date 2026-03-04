@@ -50,9 +50,25 @@
             <artifactId>commons-codec</artifactId>
         </dependency>
         <dependency>
+            <groupId>cn.smallbun.screw</groupId>
+            <artifactId>screw-core</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.23</version>
+        </dependency>
+        <dependency>
             <groupId>cn.xpeanut</groupId>
             <artifactId>business-behavior-monitor-sdk</artifactId>
             <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>6.3.3</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
